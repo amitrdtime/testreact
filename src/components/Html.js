@@ -76,7 +76,7 @@ class Html extends React.Component {
               }}
             />
           )}
-          {config.analytics.googleTrackingId && (
+          {config.analytics.not.googleTrackingId && (
             <script
               src="https://www.google-analytics.com/analytics.js"
               async
