@@ -51,7 +51,9 @@ class App extends React.PureComponent {
   static childContextTypes = ContextType;
 
   getChildContext() {
+	  
     return this.props.context;
+	
   }
 
   render() {
