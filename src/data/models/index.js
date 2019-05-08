@@ -28,7 +28,7 @@ User.hasMany(UserClaim, {
 });
 
 User.hasOne(UserProfile, {
-  foreignKeyq: 'userId',
+  foreignKey: 'userId',
   as: 'profile',
   onUpdate: 'cascade',
   onDelete: 'cascade',
